@@ -8,6 +8,10 @@ public class App {
         return "Hello world.";
     }
 
+    public int doAdd(int x, Calc c) {
+        return c.add(x);
+    }
+
     public static void main(String[] args) {
         System.out.println(new App().getGreeting());
     }
